@@ -38,8 +38,9 @@ volumelevel - 0 - 100 integer value
 ## StopMusicPlaying
 If music is playing stop it
 ```
-osascript StopMusicPlaying <speakername> <volumelevel>
+osascript StopMusicPlaying <speakername>
 ```
+speakername - name of AirPlay speaker use \ for spaces e.g.: Front\ Bedroom
 
 ## TurnOffSpeakers
 Turns off the provided AirPlay speakers. Current assumption is that if the speakers are the last active speakers out of all available, music is stopped via StopMusic script located in the same folder but the speakers will remain active with iTunes.
