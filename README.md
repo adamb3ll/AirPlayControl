@@ -22,10 +22,10 @@ Play the currently selected track. If no track is selected attempted to play pla
 
 Future change to receive the playlist name
 
-\\\
+```
 osascript PlayMusic.scpt
+```
 
-No Return
 
 ## SetVolume
 Set the percentage volume for an AirPlaySpeaker
@@ -40,7 +40,6 @@ If music is playing stop it
 ```
 osascript StopMusicPlaying <speakername> <volumelevel>
 ```
-No Return
 
 ## TurnOffSpeakers
 Turns off the provided AirPlay speakers. Current assumption is that if the speakers are the last active speakers out of all available, music is stopped via StopMusic script located in the same folder but the speakers will remain active with iTunes.
