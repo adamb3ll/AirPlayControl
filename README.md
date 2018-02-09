@@ -2,15 +2,13 @@
 
 A series of AppleScripts for controlling iTunes and AirPlay
 
-## Scripts:
-
-* GetSpeakerStatus: 
+## GetSpeakerStatus: 
 ```
 osascript GetSpeakerStatus.scpt Speaker\ Name
 ```
 Returns 1 for Speaker is active, 0 inactive
 
-* IsMusicPlaying:
+## IsMusicPlaying:
 ```
 osascript IsMusicPlaying.scpt
 ```
