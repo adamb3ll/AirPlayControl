@@ -6,9 +6,8 @@ A series of AppleScripts for controlling iTunes and AirPlay
 Used to determine if the supplied speaker is playing music
 ```
 osascript GetSpeakerStatus.scpt <speakername>
-
 ```
-<speakername> - name of AirPlay speaker use \ for spaces e.g.: Front\ Bedroom
+speakername - name of AirPlay speaker use \ for spaces e.g.: Front\ Bedroom
 Returns 1 for Speaker is active, 0 inactive
 
 ## IsMusicPlaying:
@@ -33,8 +32,8 @@ Set the percentage volume for an AirPlaySpeaker
 ```
 osascript SetVolume.scpt <speakername> <volumelevel>
 ```
-<speakername> - name of AirPlay speaker use \ for spaces e.g.: Front\ Bedroom
-<volumelevel> - 0 - 100 integer value
+speakername - name of AirPlay speaker use \ for spaces e.g.: Front\ Bedroom
+volumelevel - 0 - 100 integer value
 
 ## StopMusicPlaying
 If music is playing stop it
@@ -48,13 +47,13 @@ Turns off the provided AirPlay speakers. Current assumption is that if the speak
 ```
 osascript TurnOffSpeakers <speakername>
 ```
-<speakername> - name of AirPlay speaker use \ for spaces e.g.: Front\ Bedroom
+speakername - name of AirPlay speaker use \ for spaces e.g.: Front\ Bedroom
 
-## TurnOSpeakers
+## TurnOnSpeakers
 Turns on the provided AirPlay speakers leaving any other active AirPlay devices unchanged.
 ```
 osascript TurnOnSpeakers <speakername>
 ```
-<speakername> - name of AirPlay speaker use \ for spaces e.g.: Front\ Bedroom
+speakername - name of AirPlay speaker use \ for spaces e.g.: Front\ Bedroom
 
 
