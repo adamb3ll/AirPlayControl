@@ -2,7 +2,7 @@
 
 A series of AppleScripts for controlling iTunes and AirPlay
 
-I used these scripts with @nfarina [Homebridge](https://github.com/nfarina/homebridge) and the plugin [Script2](https://www.npmjs.com/package/homebridge-script2).  Example config below.
+I used these scripts with [Homebridge](https://github.com/nfarina/homebridge) and the plugin [Script2](https://www.npmjs.com/package/homebridge-script2).  Example config below.
 
 ## GetSpeakerStatus: 
 Used to determine if the supplied speaker is playing music
