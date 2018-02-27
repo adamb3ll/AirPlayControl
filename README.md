@@ -73,6 +73,7 @@ speakername - name of AirPlay speaker use \\\\ for spaces e.g.: Front\\\\ Bedroo
 /Users/YOURUSER/fullscriptspath/Echo.sh
 ```
 to path of Echo.sh.
+
 4. Edit Echo.sh and change Echo-220 to name of required Bluetooth device
 5. In terminal enter:
 ```
