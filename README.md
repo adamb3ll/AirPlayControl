@@ -80,6 +80,7 @@ to path of Echo.sh.
 launchctl load ~/Library/LaunchAgents/local.job.bluetoothmonitor.plist
 ```
 If all is correct there will be no output
+
 6. Connecting the Bluetooth device will launch the PlayMusic.scpt and disconnecting will launch the StopMusicPlaying.scpt
 
 ## Homebridge Config
