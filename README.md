@@ -74,12 +74,14 @@ playlistname - optionally specify a playlist to play
 /Users/YOURUSER/fullscriptspath/Echo.sh
 ```
 to path of Echo.sh.
+
 4. Edit Echo.sh and change Echo-220 to name of required Bluetooth device
 5. In terminal enter:
 ```
 launchctl load ~/Library/LaunchAgents/local.job.bluetoothmonitor.plist
 ```
 If all is correct there will be no output
+
 6. Connecting the Bluetooth device will launch the PlayMusic.scpt and disconnecting will launch the StopMusicPlaying.scpt
 
 ## Homebridge Config
