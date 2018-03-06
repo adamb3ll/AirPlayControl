@@ -63,6 +63,7 @@ Turns on the provided AirPlay speakers leaving any other active AirPlay devices 
 osascript TurnOnSpeakers <speakername> <optional: playlistname>
 ```
 speakername - name of AirPlay speaker use \\\\ for spaces e.g.: Front\\\\ Bedroom
+
 playlistname - optionally specify a playlist to play
 
 ## Linking with Amazon Echo or other Bluetooth device
