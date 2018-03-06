@@ -60,9 +60,10 @@ speakername - name of AirPlay speaker use \\\\ for spaces e.g.: Front\\\\ Bedroo
 ## TurnOnSpeakers
 Turns on the provided AirPlay speakers leaving any other active AirPlay devices unchanged.
 ```
-osascript TurnOnSpeakers <speakername>
+osascript TurnOnSpeakers <speakername> <optional: playlistname>
 ```
 speakername - name of AirPlay speaker use \\\\ for spaces e.g.: Front\\\\ Bedroom
+playlistname - optionally specify a playlist to play
 
 ## Linking with Amazon Echo or other Bluetooth device
 1. Ensure Echo.sh and fileparser ([Source can be found here](https://github.com/adamb3ll/fileparser)) are in the same folder as PlayMusic.scpt and StopMusicPlaying.scpt
