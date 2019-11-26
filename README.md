@@ -4,7 +4,14 @@ A series of AppleScripts for controlling iTunes and AirPlay
 
 I used these scripts with [Homebridge](https://github.com/nfarina/homebridge) and the plugin [Script2](https://www.npmjs.com/package/homebridge-script2).  Example config below.
 
-## GetSpeakerStatus: 
+## DecrementVolume:
+Decrements the volume of music by small decrement
+```
+osascript DecrementVolume.scpt
+```
+No return value
+
+## GetSpeakerStatus:
 Used to determine if the supplied speaker is playing music
 ```
 osascript GetSpeakerStatus.scpt <speakername>
@@ -13,8 +20,23 @@ speakername - name of AirPlay speaker use \\\\ for spaces e.g.: Front\\\\ Bedroo
 
 Returns 1 for Speaker is active, 0 inactive
 
+## IncrementVolume:
+Increments the volume of music by small increment
+```
+osascript IncrementVolume.scpt
+```
+No return value
+
+## IsPlaylistPlaying:
+Determines if the playlist provided is actively IsMusicPlaying
+```
+osascript IsPlaylistPlaying.scpt <playlistname>
+````
+
+Returns 1 for playlist is playing, 0 for not playing
+
 ## IsMusicPlaying:
-Simply asks i the music is playing or not
+Simply asks if the music is playing or not
 ```
 osascript IsMusicPlaying.scpt
 ```
@@ -29,7 +51,7 @@ osascript PlayMusic.scpt <PlaylistName> <optional: shuffle>
 
 ## PlayPlaylist
 Play the playlist specified by argument 1 <PlaylistName> and shuffle with option "shuffle" parameter.
-    
+
 ```
 osascript PlayPlaylist.scpt <PlaylistName> <optional: shuffle>
 ```
@@ -70,7 +92,7 @@ playlistname - optionally specify a playlist to play
 1. Ensure Echo.sh and fileparser ([Source can be found here](https://github.com/adamb3ll/fileparser)) are in the same folder as PlayMusic.scpt and StopMusicPlaying.scpt
 2. Copy local.job.bluetoothmonitor.plist into /Users/YOURUSER/Library/LaunchAgents
 3. Edit local.job.bluetoothmonitor.plist updating:
-    
+
 ```
 /Users/YOURUSER/fullscriptspath/Echo.sh
 ```
